@@ -1,0 +1,25 @@
+package com.company;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        int first = 2, second = 9648, third = 9649;
+        if (first < second && first < third) {
+            System.out.println("Min = " + first);
+        } else if (second < first && second < third) {
+            System.out.println("Min = " + second);
+        } else {
+            System.out.println("Min = " + third);
+        }
+
+        if (first > second && first > third) {
+            System.out.println("Max = " + first);
+        } else if (second > first && second > third) {
+            System.out.println("Max = " + second);
+        } else {
+            System.out.println("Max = " + third);
+        }
+    }
+
+}
